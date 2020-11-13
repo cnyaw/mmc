@@ -41,7 +41,7 @@ function CheckTouchMenuItem(param, cursor, obj, cy)
   local click = false
   if (Input.IsKeyPushed(Input.LBUTTON)) then
     local x, y = Input.GetMousePos()
-    if (obj == Good.PickObj(x, y, Good.TEXBG)) then
+    if (PtInObj(x, y, obj)) then
       local px, py = GetAbsPos(obj)
       local index = math.floor((y - py) / cy)
       PlaySound(552)
