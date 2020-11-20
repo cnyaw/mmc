@@ -335,21 +335,25 @@ dim=0 0 220 180
 texture=143
 x=192
 y=224
+dim=0 0 119 129
 
 [object146]
 texture=145
 x=215
 y=263
+dim=0 0 39 46
 
 [object149]
 texture=148
 x=64
 y=48
+dim=0 0 348 100
 
 [object151]
 texture=150
 x=160
 y=400
+dim=0 0 176 160
 
 [object332]
 sprite=331
@@ -490,6 +494,7 @@ objects=541
 texture=148
 x=64
 y=48
+dim=0 0 348 100
 
 [level155]
 name=normal mode
